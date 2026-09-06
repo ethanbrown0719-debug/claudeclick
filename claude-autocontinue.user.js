@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name         Claude Auto-Continue
-// @namespace    https://github.com/YOUR-USERNAME/claude-autocontinue
+// @namespace    https://github.com/ethanbrown0719-debug/claudeclick
 // @version      1.0.0
 // @description  Automatically clicks the "Continue" button on claude.ai when a turn stops early
 // @match        https://claude.ai/*
-// @updateURL    https://raw.githubusercontent.com/YOUR-USERNAME/claude-autocontinue/main/claude-autocontinue.user.js
-// @downloadURL  https://raw.githubusercontent.com/YOUR-USERNAME/claude-autocontinue/main/claude-autocontinue.user.js
+// @updateURL    https://raw.githubusercontent.com/ethanbrown0719-debug/claudeclick/main/claude-autocontinue.user.js
+// @downloadURL  https://raw.githubusercontent.com/ethanbrown0719-debug/claudeclick/main/claude-autocontinue.user.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-idle
 // ==/UserScript==
+
 
 (function () {
   'use strict';
